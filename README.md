@@ -235,6 +235,8 @@ Forkable, extensible, and community-driven. Sorted by GitHub stars. Provider tag
 
 - **[memcode](https://github.com/memcode-ai/memcode)** `⭐ 17` — Go terminal coding agent that keeps persistent per-project memory in a local `.memcode` store — subsystems, prior work, failed approaches, corrected preferences — so sessions don't start from zero. Single binary that doubles as a self-hosted gateway answering on twelve chat channels, and ships an MCP memory server so other agents can read the same store. Runs on your own API keys, a local endpoint like Ollama, or a hosted account. MIT.
 
+- **[Mercury CLI](https://github.com/Whq02/MercuryCLI)** `⭐ 14` — Multi-session terminal coding agent ([mercury-cli.ai](https://mercury-cli.ai)): runs several coding sessions side by side on one screen, spawns crewmates on any of 13 providers or a local model in isolated git worktrees with file leases, and keeps project memory across sessions (BM25 plus an on-device embedding model). LSP, 23-language AST rewrites, a DAP debugger, keyless web search, computer use and voice dictation built in. npm `mercury-tech-cli`, TypeScript. Source-available (BSL 1.1).
+
 - **[Darce](https://github.com/AmerSarhan/darce-cli)** `⭐ 10` — Ultralight (14 kB) multi-model CLI agent built with Ink; 7 tools, smart model routing across providers, streaming, session resume, and slash commands. MIT.
 
 - **[Forge (Norvia Labs)](https://github.com/NorviaLabs/forge)** `⭐ 8` — Rust TUI coding agent unifying an AI agent, a vim-style code editor, and a shell in one keyboard-driven workspace; approval-aware command execution, durable SQLite session journal, and MCP server support. MIT.
